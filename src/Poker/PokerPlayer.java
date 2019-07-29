@@ -37,7 +37,7 @@ class PokerCardsComparator implements Comparator<Card> {
         if (numCompResult != 0) {
             return numCompResult;
         } else {
-            return Integer.compare(o1.getColour(), o2.getColour());
+            return Integer.compare(o1.getColor(), o2.getColor());
         }
     }
 }
